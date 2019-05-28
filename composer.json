@@ -1,0 +1,21 @@
+{
+    "name": "vaildate/vail",
+    "description": "A PHP check param",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lindongfeng",
+            "email": "898303969@qq.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+		"php": "> 7.0"
+	},
+	"autoload": {
+        "psr-4": {
+            "Vaildate\\": "src"
+        }
+    }
+}
